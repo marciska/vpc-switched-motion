@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  ros:
+    build:
+      context: ../../
+      dockerfile: ./docker/ros_melodic/Dockerfile
+    container_name: ros_melodic
+    hostname: docker-ros
+    working_dir: /catkin_ws
+    stdin_open: true
+    tty: true
+    #command: roscore #roslaunch ros_tcp_endpoint endpoint.launch
+    restart: always
+    networks:
+      docker-mac-network_default:
+        ipv4_address: 172.25.0.3
+
+networks:
+  docker-mac-network_default:
+    external: true
