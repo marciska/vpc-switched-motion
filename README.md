@@ -24,7 +24,7 @@ Please also refer to the following projects that are used by this repository:
 Clone this repository with all its subdependencies to your local machine:
 
 ```bash
-git clone --recurse-submodules https://gitlab.com/FJT_Lab/publications/paper/ifac2022/vpc-switched-motion.git
+git clone --recurse-submodules https://github.com/macoska/vpc-switched-motion.git
 ```
 
 If you cloned the project without its submodules, please instruct git to load all submodules by this command within the project folder:
@@ -51,7 +51,7 @@ Marco Omainska: marcoomainska _at_ g.ecc.u-tokyo.ac.jp
 ```
 
 [YT]:https://youtu.be/YxX8FoeyF8g
-[VPC]:https://gitlab.com/FJT_Lab/research/vpc/visual-pursuit-control
+[VPC]:https://github.com/macoska/visual-pursuit-control.git
 [GPML]:http://gaussianprocess.org/gpml/code/matlab/doc/
 [ROS-TCP-Connector]:https://github.com/Unity-Technologies/ROS-TCP-Connector
 [DOCKER-ROS]:https://github.com/wojas/docker-mac-network
