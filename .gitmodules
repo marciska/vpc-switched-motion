@@ -1,5 +1,3 @@
 [submodule "vpc_library"]
 	path = vpc_library
-	url = https://gitlab.com/FJT_Lab/research/vpc/visual-pursuit-control.git
-[submodule "vpc_library/"]
 	url = https://github.com/macoska/visual-pursuit-control.git
